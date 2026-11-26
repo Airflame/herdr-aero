@@ -28,3 +28,7 @@ are in `mods/herdr-aero/README.md`.
 
 Fonts: Segoe UI and Consolas (installed on Windows; elsewhere Herdr falls
 back to its own fonts).
+
+## LLMs used for development
+
+- Claude Opus 5.5
