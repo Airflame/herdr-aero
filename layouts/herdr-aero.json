@@ -1,0 +1,96 @@
+{
+  "id": "root",
+  "type": "column",
+  "children": [
+    {
+      "id": "screen",
+      "type": "row",
+      "children": [
+        {
+          "id": "desktop",
+          "type": "block",
+          "content": {
+            "mod": "herdr-aero",
+            "props": {
+              "role": "desktop"
+            }
+          },
+          "size": {
+            "px": 84
+          },
+          "window_drag": true
+        },
+        {
+          "id": "main",
+          "type": "block",
+          "content": {
+            "tab": "active",
+            "pane": {
+              "header": {
+                "content": {
+                  "mod": "herdr-aero",
+                  "props": {
+                    "role": "window"
+                  }
+                },
+                "reveal": "always",
+                "height": 28,
+                "position": "top"
+              },
+              "background": "#00000000",
+              "border": {
+                "width": 6,
+                "color": "#c9d8eacc"
+              },
+              "focus": {
+                "width": 6,
+                "color": "#8eb4dfd9"
+              },
+              "radius": 8,
+              "gap": 12,
+              "lone": true
+            }
+          },
+          "padding": [
+            10.0,
+            10.0
+          ]
+        }
+      ],
+      "resizable": false
+    },
+    {
+      "id": "taskbar",
+      "type": "block",
+      "content": {
+        "mod": "herdr-aero",
+        "props": {
+          "role": "taskbar"
+        }
+      },
+      "size": {
+        "px": 40
+      },
+      "window_drag": true
+    }
+  ],
+  "background": {
+    "image": "mods/herdr-aero/img/aurora.png",
+    "fit": "cover"
+  },
+  "theme": "herdr-aero",
+  "font": "Consolas",
+  "font_size": 14,
+  "ui_font": "Segoe UI",
+  "terminal_padding": [
+    4.0,
+    2.0
+  ],
+  "terminal_opacity": 1,
+  "titlebar": "none",
+  "traffic_lights": [
+    14.0,
+    14.0
+  ],
+  "preview": "layouts/herdr-aero.svg"
+}

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#08285c"/><stop offset="1" stop-color="#166ebe"/></linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8e8f8" stop-opacity=".9"/><stop offset=".3" stop-color="#9cbfe6" stop-opacity=".85"/><stop offset="1" stop-color="#8eb4df" stop-opacity=".85"/></linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#5878a0" stop-opacity=".9"/><stop offset="1" stop-color="#14243a" stop-opacity=".95"/></linearGradient>
+    <radialGradient id="orb" cx="50%" cy="60%" r="55%"><stop offset="0" stop-color="#7fd4ff"/><stop offset=".5" stop-color="#1f7fd6"/><stop offset="1" stop-color="#0b2f66"/></radialGradient>
+  </defs>
+  <rect width="320" height="200" fill="url(#bg)"/>
+  <path d="M-10 150 C80 80 200 140 330 60" stroke="#cdeeff" stroke-opacity=".55" stroke-width="2" fill="none"/>
+  <path d="M-10 120 C90 90 200 100 330 75" stroke="#9fd6ff" stroke-opacity=".3" stroke-width="5" fill="none"/>
+  <g fill="#fff" opacity=".85"><rect x="10" y="12" width="14" height="12" rx="2"/><rect x="10" y="40" width="14" height="12" rx="2"/><rect x="10" y="68" width="14" height="12" rx="2"/></g>
+  <rect x="38" y="8" width="274" height="172" rx="6" fill="url(#glass)" stroke="#000" stroke-opacity=".4"/>
+  <rect x="42" y="24" width="266" height="152" fill="#000" stroke="#3f5e86"/>
+  <rect x="54" y="12" width="66" height="9" rx="4.5" fill="#fff" fill-opacity=".35"/>
+  <text x="58" y="19.5" font-family="Segoe UI" font-size="7" fill="#000">Command Prompt</text>
+  <rect x="256" y="8" width="13" height="10" fill="#fff" fill-opacity=".3" stroke="#000" stroke-opacity=".4" stroke-width=".6"/>
+  <rect x="269" y="8" width="13" height="10" fill="#fff" fill-opacity=".3" stroke="#000" stroke-opacity=".4" stroke-width=".6"/>
+  <rect x="282" y="8" width="22" height="10" rx="2" fill="#c7442c" stroke="#000" stroke-opacity=".4" stroke-width=".6"/>
+  <text x="46" y="36" font-family="Consolas" font-size="7" fill="#c0c0c0">C:\Users&gt;_</text>
+  <rect y="182" width="320" height="18" fill="url(#bar)"/>
+  <rect y="182" width="320" height=".8" fill="#fff" fill-opacity=".4"/>
+  <circle cx="13" cy="191" r="8" fill="url(#orb)" stroke="#0a2347" stroke-width=".6"/>
+  <rect x="28" y="184" width="22" height="15" rx="2" fill="#fff" fill-opacity=".15" stroke="#fff" stroke-opacity=".4" stroke-width=".6"/>
+  <rect x="52" y="184" width="60" height="15" rx="2" fill="#fff" fill-opacity=".28" stroke="#fff" stroke-opacity=".6" stroke-width=".6"/>
+  <text x="285" y="190" font-family="Segoe UI" font-size="5.5" fill="#fff">9:41 PM</text>
+  <text x="282" y="197" font-family="Segoe UI" font-size="5.5" fill="#fff">11/25/2026</text>
+</svg>

@@ -1,0 +1,5 @@
+# Files Herdr writes into mod folders
+gpui-kit.d.ts
+herdr.d.ts
+jsconfig.json
+*.error
